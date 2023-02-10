@@ -1,0 +1,6 @@
+(library
+  (public_name my-pretty-specified-library)
+  (name my_lib)
+  (preprocess
+    (action
+      (system "gospel pps-doc %{input-file}"))))
